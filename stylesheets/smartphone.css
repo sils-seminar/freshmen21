@@ -288,7 +288,7 @@ height: 100%;
 .silsxsils p {
   font-family: 'Noto Sans JP', sans-serif;
   position: absolute;
-  font-size: 12px;
+  font-size: 11.5px;
   line-height: 150%;
   position: absolute;
   width: 100%;
@@ -303,7 +303,7 @@ height: 100%;
 /*   WASEDA DIRECT */
 .wasedadirect{
   position: relative;
-  margin-top: 8%;
+  margin-top: 12%;
   }
   
   .wasedadirect img {
@@ -324,7 +324,7 @@ height: 100%;
   .wasedadirect p {
     font-family: 'Noto Sans JP', sans-serif;
     position: absolute;
-    font-size: 12px;
+    font-size: 11.5px;
     line-height: 150%;
     position: absolute;
     width: 100%;
@@ -338,7 +338,7 @@ height: 100%;
 /*   WASEGUARD   */
 .waseguard{
   position: relative;
-  margin-top: 2%;
+  margin-top: 3%;
   }
   
   .waseguard img {
@@ -365,7 +365,7 @@ height: 100%;
     width: 100%;
     right: 4%; 
     left: 1%;
-    top: calc(88% - 40px); 
+    top: calc(81% - 40px); 
     text-align: left;
     font-weight: bold
   }
