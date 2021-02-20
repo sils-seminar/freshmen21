@@ -1,0 +1,403 @@
+@media screen and (min-width: 769px){
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .snow {
+    color: red ; /*雪の色*/
+    font-size: 30px; /*雪の大きさ*/
+    position: fixed;
+    top: -5%; /*初期位置*/
+    text-shadow:
+    5vw   -100px 2px,
+    10vw  -400px 3px,
+    20vw  -500px 4px, 
+    30vw  -580px 1px,
+    39vw  -250px 2px,
+    42vw  -340px 5px,
+    56vw  -150px 2px,
+    63vw  -180px 0,
+    78vw  -220px 4px,
+    86vw  -320px 9px,
+    94vw  -170px 7px;
+    animation: anim 5s linear infinite;
+  }
+  
+  @keyframes anim {
+    100% {
+      color: transparent;
+      top: 150%;
+    }
+  }
+
+  .header-nav1 {
+    background-color:#FFF5EE;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .logo {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-right:35%;
+  }  
+
+  .logo-1 {
+  width: 100px;
+  height: 100px
+} 
+
+  .logo-2 {
+  width: 150px;
+  height: 110px
+} 
+
+  .logo-3 {
+  width: 100px;
+  height: 100px
+} 
+
+  header a {
+    color:#444; 
+    text-decoration: none; 
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    margin: auto;
+    text-transform: uppercase;
+    margin: auto;
+    margin-right: 5px;
+  }
+
+  nav {
+    margin-right: 5%;
+  }
+  
+    /*   Second block   */
+#second-block {
+  background-color:#FFF5EE;
+  text-align: center;
+  height: 250px;
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 100px;
+}
+
+.info-title {
+  font-size: 60px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 500;
+  color:#ff5757;
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  font-size: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-bottom: 30px;
+  color: #444;
+  text-align:center;
+  line-height: 200%;
+}
+/*   Second block End   */
+
+
+  /*   Third block Start   */
+#third-block {
+  background-color:#FFF5EE;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.project-title {
+  font-size: 50px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 500;
+  color:#ff5757;
+  text-align:center;
+}  
+/*   Third block End   */
+
+/*   SNS   */
+.web {
+  position:static;
+  top:50px;
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 18pt;        /* 文字サイズ */
+  text-align: center;      /* 文字位置   */
+  cursor: pointer;     /* カーソル   */
+  padding: 12px 12px;   /* 余白       */
+  background: #16A085 ;     /* 背景色     */
+  color: #ffffff;     /* 文字色     */
+  line-height: 1em;         /* 1行の高さ  */
+  transition: .3s;         /* なめらか変化 */
+  box-shadow: 6px 6px 3px #666666;  /* 影の設定 */
+  border: 2px solid #16A085 ;    /* 枠の指定 */
+}
+.web:hover {
+  box-shadow: none;        /* カーソル時の影消去 */
+  color: #16A085;     /* 背景色     */
+  background: #ffffff;     /* 文字色     */
+}
+
+.insta {
+  position:static;
+  top:50px;
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 18pt;        /* 文字サイズ */
+  text-align: center;      /* 文字位置   */
+  cursor: pointer;     /* カーソル   */
+  padding: 12px 12px;   /* 余白       */
+  background:#C13584;     /* 背景色     */
+  color: #ffffff;     /* 文字色     */
+  line-height: 1em;         /* 1行の高さ  */
+  transition: .3s;         /* なめらか変化 */
+  box-shadow: 6px 6px 3px #666666;  /* 影の設定 */
+  border: 2px solid #C13584;    /* 枠の指定 */
+}
+.insta:hover {
+  box-shadow: none;        /* カーソル時の影消去 */
+  color: #C13584;     /* 背景色     */
+  background: #ffffff;     /* 文字色     */
+}
+
+.fb {
+  position:static;
+  top:50px;
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 18pt;        /* 文字サイズ */
+  text-align: center;      /* 文字位置   */
+  cursor: pointer;     /* カーソル   */
+  padding: 12px 12px;   /* 余白       */
+  background: #3B5998;     /* 背景色     */
+  color: #ffffff;     /* 文字色     */
+  line-height: 1em;         /* 1行の高さ  */
+  transition: .3s;         /* なめらか変化 */
+  box-shadow: 6px 6px 3px #666666;  /* 影の設定 */
+  border: 2px solid #3B5998;    /* 枠の指定 */
+}
+.fb:hover {
+  box-shadow: none;        /* カーソル時の影消去 */
+  color: #3B5998;     /* 背景色     */
+  background: #ffffff;     /* 文字色     */
+}
+
+.line {
+  position:static;
+  top:50px;
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 18pt;        /* 文字サイズ */
+  text-align: center;      /* 文字位置   */
+  cursor: pointer;     /* カーソル   */
+  padding: 12px 12px;   /* 余白       */
+  background: #00B900;     /* 背景色     */
+  color: #ffffff;     /* 文字色     */
+  line-height: 1em;         /* 1行の高さ  */
+  transition: .3s;         /* なめらか変化 */
+  box-shadow: 6px 6px 3px #666666;  /* 影の設定 */
+  border: 2px solid #00B900;    /* 枠の指定 */
+}
+.line:hover {
+  box-shadow: none;        /* カーソル時の影消去 */
+  color: #00B900;     /* 背景色     */
+  background: #ffffff;     /* 文字色     */
+}
+
+.tw {
+  position:static;
+  top:50px;
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 18pt;        /* 文字サイズ */
+  text-align: center;      /* 文字位置   */
+  cursor: pointer;     /* カーソル   */
+  padding: 12px 12px;   /* 余白       */
+  background: #1DA1F2;     /* 背景色     */
+  color: #ffffff;     /* 文字色     */
+  line-height: 1em;         /* 1行の高さ  */
+  transition: .3s;         /* なめらか変化 */
+  box-shadow: 6px 6px 3px #666666;  /* 影の設定 */
+  border: 2px solid #1DA1F2;    /* 枠の指定 */
+}
+.tw:hover {
+  box-shadow: none;        /* カーソル時の影消去 */
+  color: #1DA1F2;     /* 背景色     */
+  background: #ffffff;     /* 文字色     */
+}
+
+.youtube {
+  position:static;
+  top:50px;
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 18pt;        /* 文字サイズ */
+  text-align: center;      /* 文字位置   */
+  cursor: pointer;     /* カーソル   */
+  padding: 12px 12px;   /* 余白       */
+  background: #DA1725;     /* 背景色     */
+  color: #ffffff;     /* 文字色     */
+  line-height: 1em;         /* 1行の高さ  */
+  transition: .3s;         /* なめらか変化 */
+  box-shadow: 6px 6px 3px #666666;  /* 影の設定 */
+  border: 2px solid #DA1725;    /* 枠の指定 */
+}
+.youtube:hover {
+  box-shadow: none;        /* カーソル時の影消去 */
+  color: #DA1725;     /* 背景色     */
+  background: #ffffff;     /* 文字色     */
+}
+/*   SNS   */
+
+/*   SILSxSILS   */
+.silsxsils{
+position: relative;
+}
+
+.silsxsils img {
+width: 100%;
+height: 100%;
+}
+
+.silsxsils h1 {
+  position: absolute;
+  font-size: 55px;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  font-weight: bold;
+  top: 6%;
+  left: 5%;
+}
+
+.silsxsils p {
+  font-family: 'Noto Sans JP', sans-serif;
+  position: absolute;
+  font-size: 22px;
+  line-height: 150%;
+  position: absolute;
+  width: 100%;
+  right: 5%; 
+  top: calc(55% - 40px); 
+  text-align: right;
+  font-weight: lighter;
+}
+/*   Fourth block End   */
+
+/*   WASEDA DIRECT */
+.wasedadirect{
+  position: relative;
+  }
+  
+  .wasedadirect img {
+  width: 100%;
+  height: 100%
+  }
+  
+  .wasedadirect h1 {
+    position: absolute;
+    font-size: 65px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-weight: bold;
+    top: 6%;
+    left: 5%
+  }
+  
+  .wasedadirect p {
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    font-size: 22px;
+    line-height: 150%;
+    position: absolute;
+    width: 100%;
+    right: 3%; 
+    top: calc(60% - 40px); 
+    text-align: right;
+    font-weight: lighter;
+  }
+/*   Fifth block End   */
+
+/*   WASEGUARD   */
+.waseguard{
+  position: relative;
+  }
+  
+  .waseguard img {
+  width: 100%;
+  height: 100%
+  }
+  
+  .waseguard h1 {
+    position: absolute;
+    font-size: 65px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-weight: bold;
+    top: 10%;
+    left: 5%;
+  }
+  
+  .waseguard p {
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    font-size: 22px;
+    line-height: 150%;
+    position: absolute;
+    width: 100%;
+    right: 3%; 
+    top: calc(61% - 40px); 
+    text-align: right;
+    font-weight: lighter;
+  }
+/*   Sixth block End   */
+
+ /*   Seventh block Start   */
+ #seventh-block {
+  background-color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.contact-title {
+  font-size: 40px;
+  font-family: 'Beth Ellen', cursive;
+  font-weight: 500;
+  color: #ff5757;
+  text-align: center;
+} 
+
+.contact{
+  font-size: 20px;
+  color:#444;;
+  font-family:'Josefin Slab', serif;
+} 
+/*   Seventh block End   */
+
+  footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        height: 50px;
+        width: 100%;
+        background-color:white;
+        font-size: 15px;
+        color:#444;;
+        font-family:'Josefin Slab', serif;
+      }
+  
+    }
