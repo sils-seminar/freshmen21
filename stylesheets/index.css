@@ -101,7 +101,7 @@
 }
 
 .info-text {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Noto Sans JP', sans-serif;
   margin-bottom: 30px;
   color: #444;
@@ -122,6 +122,7 @@
   font-size: 50px;
   font-family: 'Josefin Slab', serif;
   font-weight: 500;
+  margin-top: 10%;
   color:#ff5757;
   text-align:center;
 }  
@@ -401,4 +402,3 @@ height: 100%;
       }
   
     }
-
