@@ -1,411 +1,143 @@
-@media screen and (max-width:480px){
-  * {
-    margin: 0;
-    padding: 0;
-  }
+<!DOCTYPE html> 
+<html lang="eng">
+  <head>
+    <title>landingpage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./stylesheets/smartphone.css" />
+    <link rel="stylesheet" href="./stylesheets/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css" type="text/css" media="all" />
+  </head>
 
-  .snow {
-    color: red ; /*雪の色*/
-    font-size: 12px; /*雪の大きさ*/
-    position: fixed;
-    top: -5%; /*初期位置*/
-    text-shadow:
-    5vw   -100px 2px,
-    10vw  -400px 3px,
-    20vw  -500px 4px, 
-    30vw  -580px 1px,
-    39vw  -250px 2px,
-    42vw  -340px 5px,
-    56vw  -150px 2px,
-    63vw  -180px 0,
-    78vw  -220px 4px,
-    86vw  -320px 9px,
-    94vw  -170px 7px;
-    animation: anim 5s linear infinite;
-  }
+  <body> 
+    <header class="header-nav1">
+      <div class="logo">
+        <img src="./images/logo1.png" class="logo-1">
+        <img src="./images/logo2.png" class="logo-2">
+        <img src="./images/logo3.png" class="logo-3">
+      </div>
+      <nav><a href="#fourth-block">SILS×SILS</a></nav>
+      <nav><a href="#fifth-block">Waseda Direct</a></nav>
+      <nav><a href="#sixth-block">WaseGuard</a></nav>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+    </header>
+    
+ <!--   Second block Start   -->
+ <section id="second-block">
+  <p class="info-title">
+      Welcome
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+  </p>
   
-  @keyframes anim {
-    100% {
-      color: transparent;
-      top: 150%;
-    }
-  }
+  <p class="info-text">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+        Hello! We are SILS senior students in Dr. Morimoto's<br>Economy and Business Seminar. <br>We are happy to greet you to the upcoming college life.<br>
+        In our Seminar, due to the COVID-19 pandemic, we have been working on the campaign project<br>to help the freshmen to enjoy school life in this new normal era. 
+        <br>To make your college life more intriguing, we would like to offer you 3 online services:<br> (1) SILSxSILS (2)Waseda Direct (3)WASEGUARD
+  </p>
+</section>
+<!--   Second block End   -->
+
+<!--   Third block Start   -->
+  <section id="third-block">
+    <p class="project-title">
+      3 Online Services
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+    </p>
+  </section>
+<!--   Third block End   -->
 
 
-  .header-nav1 {
-    background-color:#FFF5EE;
-    position: fixed;
-    height: 100px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  }
+<!--   SILSxSILS   -->
+<section id="fourth-block">
+  <div class="silsxsils">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+    <a href="https://mia828.github.io/silsxsils/" class="web"><i class="fas fa-laptop faa-bounce animated"></i>Website</a>
+    <a href="https://www.instagram.com/silsxsils_2021" class="insta"><i class="fab fa-instagram faa-tada animated-hover"></i>Instagram</a>
+    <a href="https://www.facebook.com/groups/855884521916695/?ref=share" class="fb"><i class="fab fa-facebook faa-bounce animated-hover"></i>Facebook</a>
+    <a href="https://line.me/ti/g2/FN1Kd1DPTH67k_KRAu6wtg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" class="line"><i class="fab fa-line faa-spin animated-hover"></i>LINE</a>
 
-  .logo {
-    margin-bottom: 20px;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    width:10;
-    height:15;
-  }
-  
-  .logo-1 {
-    width: 30%;
-    height: 30%;
-  } 
-  
-    .logo-2 {
-    width: 80px;
-    height: 50px
-  } 
-  
-    .logo-3 {
-    width: 25%;
-    height: 25%;
-  } 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <h1>SILS×SILS (Social Interactive Linking Space)</h1>
+    <img src="images/bg1.JPG">  
 
-  header a {
-    color:#444; 
-    text-decoration: none; 
-    font-family: 'Josefin Slab', serif;
-    font-size: 10px;
-    margin-left: 10px;
-    text-transform: uppercase;
-    text-align: center;
-  }
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <p>SILS×SILS offers SILS students a platform to socialize with<br>other SILS students. Students can use Facebook private page<br>and LINE to chat with other students. Also, we will upload useful information in each media (LINE, Instagram, Facebook).</p>    
+  </div>
+</section>
+<!--   Fourth block End   -->
 
-  nav {
-    margin-right: 5%;
-    font-size: 5px;
-    text-align: center;
-  }
-  
-  
-    /*   Second block   */
-#second-block {
-  background-color:#FFF5EE;
-  text-align: center;
-  height: 250px;
-  padding-top: 150px;
-  padding-bottom: 100px;
-}
+<!--   WASEDADIRECT   -->
+<section id= "fifth-block">
+    <div class="wasedadirect">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+      <a href="https://wasedadirect.wordpress.com/" class="web"><i class="fas fa-laptop faa-bounce animated"></i>Website</a>
+      <a href="https://www.instagram.com/waseda_direct/" class="insta"><i class="fab fa-instagram faa-tada animated-hover"></i>Instagram</a>
+      <a href="https://youtu.be/JDnQgOcIZlY " class="youtube"><i class="fab fa-youtube faa-vertical animated-hover"></i>Video</a>
 
-.info-title {
-  font-size: 50px;
-  font-family: 'Josefin Slab', serif;
-  font-weight: 500;
-  color:#ff5757;
-  text-align:center;
-  margin-bottom: 20px;
-}
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <img src="images/bg2.JPG">  
+        <h1>Waseda Direct</h1>
 
-.info-text {
-  font-size:13px;
-  font-weight: bolder;
-  font-family: 'Noto Sans JP', sans-serif;
-  margin-bottom: 30px;
-  color: #444;
-  text-align:center;
-  line-height: 200%;
-}
-/*   Second block End   */
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+      <p>Waseda Direct is where you can find all the academic<br>information necessary to live your university life. We’ll be<br>introducing the writing center, university e-resources,and<br>softwares provided by Waseda. Dig into our pages and find out<br>what gives you a competitive advantage.</p>              
+    </div>  
+  </section>
+<!--   Fifth block End   -->
 
+<!--   WASEGUARD  -->
+<section id= "sixth-block">
+<div class="waseguard">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+  <a href="https://covidinfozemi.wixsite.com/mysite" class="web"><i class="fas fa-laptop faa-bounce animated"></i>Website</a>
+  <a href="https://www.instagram.com/waseguard/" class="insta"><i class="fab fa-instagram faa-tada animated-hover"></i>Instagram</a>
 
-  /*   Third block Start   */
-#third-block {
-  background-color:#FFF5EE;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
+  <a href="https://twitter.com/waseguard" class="tw"><i class="fab fa-twitter faa-wrench animated-hover"></i>Twitter</a>
 
-.project-title {
-  font-size: 40px;
-  font-family: 'Josefin Slab', serif;
-  font-weight: 500;
-  color:#ff5757;
-  text-align:center;
-}  
-/*   Third block End   */
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <img src="images/bg3.jpg">  
+    <h1>WASEGUARD</h1>
 
-/*   SNS   */
-.web {
-  position:static;
-  top:50px;
-  display: inline-block;
-  font-family: 'Josefin Slab', serif;
-  font-size: 10pt;        /* 文字サイズ */
-  text-align: center;      /* 文字位置   */
-  cursor: pointer;     /* カーソル   */
-  padding: 10px 10px;   /* 余白       */
-  background: #16A085 ;     /* 背景色     */
-  color: #ffffff;     /* 文字色     */
-  line-height: 1em;         /* 1行の高さ  */
-  transition: .3s;         /* なめらか変化 */
-  box-shadow: 6px 6px 3px #666666;  /* 影の設定 */
-  border: 2px solid #16A085 ;    /* 枠の指定 */
-}
-.web:hover {
-  box-shadow: none;        /* カーソル時の影消去 */
-  color: #16A085;     /* 背景色     */
-  background: #ffffff;     /* 文字色     */
-}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <p>WASEGUARD aims to support SILS students obtain all the safety-related information necessary under COVID-19<br>in a timely and accurate manner. Our website will be divided into 4 sections: (1)Immigration news (2)Waseda's safety guidelines (3)Club information (4)FAQ.</p>      
+  </div>
+</section>
+<!--   Sixth block End   -->
 
-.insta {
-  position:static;
-  top:50px;
-  display: inline-block;
-  font-family: 'Josefin Slab', serif;
-  font-size: 10pt;        /* 文字サイズ */
-  text-align: center;      /* 文字位置   */
-  cursor: pointer;     /* カーソル   */
-  padding: 10px 10px;   /* 余白       */
-  background:#C13584;     /* 背景色     */
-  color: #ffffff;     /* 文字色     */
-  line-height: 1em;         /* 1行の高さ  */
-  transition: .3s;         /* なめらか変化 */
-  box-shadow: 6px 6px 3px #666666;  /* 影の設定 */
-  border: 2px solid #C13584;    /* 枠の指定 */
-}
-.insta:hover {
-  box-shadow: none;        /* カーソル時の影消去 */
-  color: #C13584;     /* 背景色     */
-  background: #ffffff;     /* 文字色     */
-}
+<!--   Seventh block Start   -->
+<section id="seventh-block">
+  <div class="contact-title">
+  Feel free to contact us!
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
 
-.fb {
-  position:static;
-  top:50px;
-  display: inline-block;
-  font-family: 'Josefin Slab', serif;
-  font-size: 10pt;        /* 文字サイズ */
-  text-align: center;      /* 文字位置   */
-  cursor: pointer;     /* カーソル   */
-  padding: 10px 10px;   /* 余白       */
-  background: #3B5998;     /* 背景色     */
-  color: #ffffff;     /* 文字色     */
-  line-height: 1em;         /* 1行の高さ  */
-  transition: .3s;         /* なめらか変化 */
-  box-shadow: 6px 6px 3px #666666;  /* 影の設定 */
-  border: 2px solid #3B5998;    /* 枠の指定 */
-}
-.fb:hover {
-  box-shadow: none;        /* カーソル時の影消去 */
-  color: #3B5998;     /* 背景色     */
-  background: #ffffff;     /* 文字色     */
-}
+  <p class="contact">e-mail:</p>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
 
-.line {
-  position:static;
-  top:50px;
-  display: inline-block;
-  font-family: 'Josefin Slab', serif;
-  font-size: 10pt;        /* 文字サイズ */
-  text-align: center;      /* 文字位置   */
-  cursor: pointer;     /* カーソル   */
-  padding: 10px 10px;   /* 余白       */
-  background: #00B900;     /* 背景色     */
-  color: #ffffff;     /* 文字色     */
-  line-height: 1em;         /* 1行の高さ  */
-  transition: .3s;         /* なめらか変化 */
-  box-shadow: 6px 6px 3px #666666;  /* 影の設定 */
-  border: 2px solid #00B900;    /* 枠の指定 */
-}
-.line:hover {
-  box-shadow: none;        /* カーソル時の影消去 */
-  color: #00B900;     /* 背景色     */
-  background: #ffffff;     /* 文字色     */
-}
+  </p>
+</section>
+  <!--   Seventh block End   -->
+  <footer>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+    <p>Copyright ©Waseda University SILS Seminar on Economy and Business<br> All Rights Reserved.</p>
+  </footer>
 
-.tw {
-  position:static;
-  top:50px;
-  display: inline-block;
-  font-family: 'Josefin Slab', serif;
-  font-size: 10pt;        /* 文字サイズ */
-  text-align: center;      /* 文字位置   */
-  cursor: pointer;     /* カーソル   */
-  padding: 10px 10px;   /* 余白       */
-  background: #1DA1F2;     /* 背景色     */
-  color: #ffffff;     /* 文字色     */
-  line-height: 1em;         /* 1行の高さ  */
-  transition: .3s;         /* なめらか変化 */
-  box-shadow: 6px 6px 3px #666666;  /* 影の設定 */
-  border: 2px solid #1DA1F2;    /* 枠の指定 */
-}
-.tw:hover {
-  box-shadow: none;        /* カーソル時の影消去 */
-  color: #1DA1F2;     /* 背景色     */
-  background: #ffffff;     /* 文字色     */
-}
-
-.youtube {
-  position:static;
-  top:50px;
-  display: inline-block;
-  font-family: 'Josefin Slab', serif;
-  font-size: 10pt;        /* 文字サイズ */
-  text-align: center;      /* 文字位置   */
-  cursor: pointer;     /* カーソル   */
-  padding: 10px 10px;   /* 余白       */
-  background: #DA1725;     /* 背景色     */
-  color: #ffffff;     /* 文字色     */
-  line-height: 1em;         /* 1行の高さ  */
-  transition: .3s;         /* なめらか変化 */
-  box-shadow: 6px 6px 3px #666666;  /* 影の設定 */
-  border: 2px solid #DA1725;    /* 枠の指定 */
-}
-.youtube:hover {
-  box-shadow: none;        /* カーソル時の影消去 */
-  color: #DA1725;     /* 背景色     */
-  background: #ffffff;     /* 文字色     */
-}
-/*   SNS   */
-
-/*   SILSxSILS   */
-.silsxsils{
-position: relative;
-}
-
-.silsxsils img {
-width: 100%;
-height: 100%;
-}
-
-.silsxsils h1 {
-  position: absolute;
-  font-size: 14px;
-  font-family: 'Permanent Marker', cursive;
-  color: white;
-  font-weight: bold;
-  top: 15%;
-  left: 4%;
-}
-
-.silsxsils p {
-  font-family: 'Noto Sans JP', sans-serif;
-  position: absolute;
-  font-size: 11px;
-  line-height: 150%;
-  position: absolute;
-  width: 100%;
-  right: 5%; 
-  left: 1%;
-  top: calc(93% - 40px); 
-  text-align: left;
-  font-weight: bold
-}
-/*   Fourth block End   */
-
-/*   WASEDA DIRECT */
-.wasedadirect{
-  position: relative;
-  margin-top: 12%;
-  }
-  
-  .wasedadirect img {
-  width: 100%;
-  height: 100%;
-  }
-  
-  .wasedadirect h1 {
-    position: absolute;
-    font-size: 20px;
-    font-family: 'Permanent Marker', cursive;
-    color: white;
-    font-weight: bold;
-    top: 15%;
-    left: 5%
-  }
-  
-  .wasedadirect p {
-    font-family: 'Noto Sans JP', sans-serif;
-    position: absolute;
-    font-size: 11px;
-    line-height: 150%;
-    position: absolute;
-    width: 100%;
-    left: 1.5%;
-    top: calc(80% - 40px); 
-    text-align: left;
-    font-weight: bold
-  }
-/*   Fifth block End   */
-
-/*   WASEGUARD   */
-.waseguard{
-  position: relative;
-  margin-top: 3%;
-  }
-  
-  .waseguard img {
-  width: 100%;
-  height: 100%
-  }
-  
-  .waseguard h1 {
-    position: absolute;
-    font-size: 20px;
-    font-family: 'Permanent Marker', cursive;
-    color: white;
-    font-weight: bold;
-    top: 15%;
-    left: 5%;
-  }
-  
-  .waseguard p {
-    font-family: 'Noto Sans JP', sans-serif;
-    position: absolute;
-    font-size: 11px;
-    line-height: 150%;
-    position: absolute;
-    width: 100%;
-    right: 4%; 
-    left: 1%;
-    top: calc(81% - 40px); 
-    text-align: left;
-    font-weight: bold
-  }
-/*   Sixth block End   */
-
- /*   Seventh block Start   */
- #seventh-block {
-  background-color: white;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  width: 100%;
-}
-
-.contact-title {
-  font-size: 20px;
-  font-family: 'Beth Ellen', cursive;
-  font-weight: 500;
-  color: #ff5757;
-  text-align: center;
-} 
-
-.contact{
-  font-size: 20px;
-  color:#444;;
-  font-family:'Josefin Slab', serif;
-} 
-/*   Seventh block End   */
-
-  footer{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        height: 50px;
-        width: 100%;
-        top: 10%;
-        background-color:white;
-        font-size: 0.3px;
-        color:#444;
-        font-family:'Josefin Slab', serif;
-      }
-  
-    }
+  <div class="snow"><i class="fas fa-heart"></i></div> 
+</body>
+</html>
