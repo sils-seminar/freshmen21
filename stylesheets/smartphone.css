@@ -277,12 +277,12 @@ height: 100%;
 
 .silsxsils h1 {
   position: absolute;
-  font-size: 14px;
+  font-size: 20px;
   font-family: 'Open Sans';
   color: white;
   font-weight: bold;
   top: 15%;
-  left: 4%;
+  left: 5%;
 }
 
 .silsxsils p {
@@ -313,7 +313,7 @@ height: 100%;
   
   .wasedadirect h1 {
     position: absolute;
-    font-size: 14px;
+    font-size: 20px;
     font-family: 'Open Sans';
     color: white;
     font-weight: bold;
@@ -348,7 +348,7 @@ height: 100%;
   
   .waseguard h1 {
     position: absolute;
-    font-size: 14px;
+    font-size: 20px;
     font-family: 'Open Sans';
     color: white;
     font-weight: bold;
