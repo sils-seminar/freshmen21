@@ -71,7 +71,7 @@
   header a {
     color:#444; 
     text-decoration: none; 
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Open Sans';
     font-size: 10px;
     margin-left: 10px;
     text-transform: uppercase;
@@ -136,7 +136,7 @@
   position:static;
   top:50px;
   display: inline-block;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Open Sans';
   font-size: 10pt;        /* 文字サイズ */
   text-align: center;      /* 文字位置   */
   cursor: pointer;     /* カーソル   */
@@ -158,7 +158,7 @@
   position:static;
   top:50px;
   display: inline-block;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Open Sans';
   font-size: 10pt;        /* 文字サイズ */
   text-align: center;      /* 文字位置   */
   cursor: pointer;     /* カーソル   */
@@ -180,7 +180,7 @@
   position:static;
   top:50px;
   display: inline-block;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Open Sans';
   font-size: 10pt;        /* 文字サイズ */
   text-align: center;      /* 文字位置   */
   cursor: pointer;     /* カーソル   */
@@ -202,7 +202,7 @@
   position:static;
   top:50px;
   display: inline-block;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Open Sans';
   font-size: 10pt;        /* 文字サイズ */
   text-align: center;      /* 文字位置   */
   cursor: pointer;     /* カーソル   */
@@ -224,7 +224,7 @@
   position:static;
   top:50px;
   display: inline-block;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Open Sans';
   font-size: 10pt;        /* 文字サイズ */
   text-align: center;      /* 文字位置   */
   cursor: pointer;     /* カーソル   */
@@ -246,7 +246,7 @@
   position:static;
   top:50px;
   display: inline-block;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Open Sans';
   font-size: 10pt;        /* 文字サイズ */
   text-align: center;      /* 文字位置   */
   cursor: pointer;     /* カーソル   */
