@@ -6,7 +6,7 @@
   }
 
   .snow {
-    color: red ; /*雪の色*/
+    color: #f4b3c2 ; /*雪の色*/
     font-size: 30px; /*雪の大きさ*/
     position: fixed;
     top: -5%; /*初期位置*/
@@ -101,12 +101,13 @@
 }
 
 .info-text {
-  font-size: 25px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 30px;
+  font-family: 'Open Sans';
   margin-bottom: 30px;
   color: #444;
   text-align:center;
   line-height: 200%;
+  font-weight: bold
 }
 /*   Second block End   */
 
@@ -292,7 +293,7 @@ height: 100%;
   right: 5%; 
   top: calc(55% - 40px); 
   text-align: right;
-  font-weight: lighter;
+  font-weight: bold
 }
 /*   Fourth block End   */
 
@@ -326,7 +327,7 @@ height: 100%;
     right: 3%; 
     top: calc(60% - 40px); 
     text-align: right;
-    font-weight: lighter;
+    font-weight: bold
   }
 /*   Fifth block End   */
 
@@ -360,7 +361,7 @@ height: 100%;
     right: 3%; 
     top: calc(61% - 40px); 
     text-align: right;
-    font-weight: lighter;
+    font-weight: bold
   }
 /*   Sixth block End   */
 
@@ -391,8 +392,7 @@ height: 100%;
   footer{
         display: flex;
         justify-content: center;
-        align-items: center;
-      
+        text-align: center;
         height: 50px;
         width: 100%;
         background-color:white;
