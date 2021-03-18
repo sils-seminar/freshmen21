@@ -284,7 +284,7 @@ height: 100%;
 }
 
 .silsxsils p {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Open Sans';
   position: absolute;
   font-size: 22px;
   line-height: 150%;
@@ -318,7 +318,7 @@ height: 100%;
   }
   
   .wasedadirect p {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans';
     position: absolute;
     font-size: 22px;
     line-height: 150%;
@@ -352,7 +352,7 @@ height: 100%;
   }
   
   .waseguard p {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans';
     position: absolute;
     font-size: 22px;
     line-height: 150%;
@@ -381,12 +381,6 @@ height: 100%;
   color: #ff5757;
   text-align: center;
 } 
-
-.contact{
-  font-size: 20px;
-  color:#444;;
-  font-family:'Josefin Slab', serif;
-} 
 /*   Seventh block End   */
 
   footer{
@@ -398,7 +392,7 @@ height: 100%;
         background-color:white;
         font-size: 15px;
         color:#444;;
-        font-family:'Josefin Slab', serif;
+        font-family:'Open Sans';
       }
   
     }
