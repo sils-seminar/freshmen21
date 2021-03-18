@@ -313,8 +313,8 @@ height: 100%;
   
   .wasedadirect h1 {
     position: absolute;
-    font-size: 20px;
-    font-family: 'Permanent Marker', cursive;
+    font-size: 14px;
+    font-family: 'Open Sans';
     color: white;
     font-weight: bold;
     top: 15%;
@@ -348,8 +348,8 @@ height: 100%;
   
   .waseguard h1 {
     position: absolute;
-    font-size: 20px;
-    font-family: 'Permanent Marker', cursive;
+    font-size: 14px;
+    font-family: 'Open Sans';
     color: white;
     font-weight: bold;
     top: 15%;
