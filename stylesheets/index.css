@@ -93,7 +93,7 @@
 
 .info-title {
   font-size: 60px;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Open Sans';
   font-weight: 500;
   color:#ff5757;
   text-align:center;
@@ -121,9 +121,9 @@
 
 .project-title {
   font-size: 50px;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Open Sans';
   font-weight: 500;
-  margin-top: 10%;
+  margin-top: 15%;
   color:#ff5757;
   text-align:center;
 }  
@@ -376,7 +376,7 @@ height: 100%;
 
 .contact-title {
   font-size: 40px;
-  font-family: 'Beth Ellen', cursive;
+  font-family: 'Open Sans';
   font-weight: 500;
   color: #ff5757;
   text-align: center;
